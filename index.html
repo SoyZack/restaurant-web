@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="//cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <section>
+        <div class="flex flex-wrap place-items-center">
+            <section class="relative mx-auto">
+                <nav class="flex justify-between bg-gray-900 text-white w-screen">
+                    <div class="px-5 xl:px-12 py-6 flex w-full items-center">
+                        <a class="text-3xl font-bold fond-heading" href="#">
+
+                        </a>
+
+                        <ul class="hidden md:flex px-4 mx-auto  font-semibold font-heading space-x-12">
+                            <li><a class="hover:text-gray-200" href="#">Home</a></li>
+                            <li><a class="hover:text-gray-200" href="#">Pages</a></li>
+                            <li><a class="hover:text-gray-200" href="#">Blog</a></li>
+                            <li><a class="hover:text-gray-200" href="#">Shop</a></li>
+                        </ul>
+
+                        <div class="hidden xl:flex items-center space-x-5 items-center">
+                            <a class="hover:text-gray-200" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+        </div>
+    </section>
+
+
+    <section class="overflow-x-hidden">
+        <!-- component -->
+        <div class="relative w-full h-[80vh] bg-slate-800">
+            <input class="hidden peer/slider1 checkbox" type="radio" name="slider" id="slider1" checked />
+            <input class="hidden peer/slider2 checkbox" type="radio" name="slider" id="slider2" />
+            <input class="hidden peer/slider3 checkbox" type="radio" name="slider" id="slider3" />
+
+            <div
+                class="relative w-[300vw] h-[100%] flex transition-all duration-500 ease-in-out peer-checked/slider1:-left-0 peer-checked/slider2:-left-[100vw] peer-checked/slider3:-left-[200vw]">
+                <div class="relative w-full h-full flex bg-red-500"><img src="imagen/Vegetales.png" alt=""></div>
+                <div class="relative w-full h-full flex bg-amber-500"><img src="imagen/comidas.png" alt=""></div>
+                <div class="relative w-full h-full flex bg-emerald-500"><img src="imagen/curry-7249247_1280.png" alt="">
+                </div>
+            </div>
+
+            <div
+                class="absolute w-full flex justify-center gap-2 bottom-12 peer-[&_label:nth-of-type(1)]/slider1:peer-checked/slider1:opacity-100 peer-[&_label:nth-of-type(1)]/slider1:peer-checked/slider1:w-10 peer-[&_label:nth-of-type(2)]/slider2:peer-checked/slider2:opacity-100 peer-[&_label:nth-of-type(2)]/slider2:peer-checked/slider2:w-10 peer-[&_label:nth-of-type(3)]/slider3:peer-checked/slider3:opacity-100 peer-[&_label:nth-of-type(3)]/slider3:peer-checked/slider3:w-10">
+                <label
+                    class="block w-5 h-5 bg-white cursor-pointer opacity-50 z-10 transition-all duration-300 ease-in-out hover:scale-125 hover:opacity-100"
+                    for="slider1">
+                </label>
+                <label
+                    class="block w-5 h-5 bg-white cursor-pointer opacity-50 z-10 transition-all duration-300 ease-in-out hover:scale-125 hover:opacity-100"
+                    for="slider2">
+                </label>
+                <label
+                    class="block w-5 h-5 bg-white cursor-pointer opacity-50 z-10 transition-all duration-300 ease-in-out hover:scale-125 hover:opacity-100"
+                    for="slider3">
+                </label>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="flex">
+            <div class="w-1/2 flex-none text-black p-20">
+                <img src="imagen/ramen-7238665_1280.png" alt="">
+            </div>
+            <div class="w-1/2 flex-none p-20 ">
+                <h5 class="outfit text-orange-500">KITCHEN STAFF</h5>
+                <h1 class="playfair-display text-4xl">PRO CHEFS TRULY DEVOTED TO THEIR CRAFT</h1>
+                <p class="py-12"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis officiis repellat
+                    odio mollitia repellendus exercitationem, at fuga labore quibusdam.
+                    Ex tenetur iste inventore, molestias voluptas totam eveniet ipsam laborum dolorem!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-[#f1ebe5]">
+        <div class="calcomania">
+            <h1 class="text-center p-6 text-3xl">Our Menu</h1>
+            <h5 class="text-center ">Lorem ipsum dolor amet in soldes</h5>
+            <div class="flex">
+                <div class="w-1/2">
+                    <div class="flex px-10 py-5">
+                        <div class="w-3/4">
+                            <h4>Steak tartare butter</h4>
+                            <p>Non nisi est sit amet facilisis magna</p>
+                        </div>
+                        <div class="w-1/4">
+                            <p>$ 120</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-1/2">
+                    <div class="flex px-10 py-5">
+                        <div class="w-3/4">
+                            <h4>Steak tartare butter</h4>
+                            <p>Non nisi est sit amet facilisis magna</p>
+                        </div>
+                        <div class="w-1/4">
+                            <p>$ 120</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="w-1/2">
+                    <div class="flex px-10 py-5">
+                        <div class="w-3/4">
+                            <h4>Steak tartare butter</h4>
+                            <p>Non nisi est sit amet facilisis magna</p>
+                        </div>
+                        <div class="w-1/4">
+                            <p>$ 120</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-1/2">
+                    <div class="flex px-10 py-5">
+                        <div class="w-3/4">
+                            <h4>Steak tartare butter</h4>
+                            <p>Non nisi est sit amet facilisis magna</p>
+                        </div>
+                        <div class="w-1/4">
+                            <p>$ 120</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="w-1/2">
+                    <div class="flex px-10 py-5">
+                        <div class="w-3/4">
+                            <h4>Steak tartare butter</h4>
+                            <p>Non nisi est sit amet facilisis magna</p>
+                        </div>
+                        <div class="w-1/4">
+                            <p>$ 120</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-1/2">
+                    <div class="flex px-10 py-5">
+                        <div class="w-3/4">
+                            <h4>Steak tartare butter</h4>
+                            <p>Non nisi est sit amet facilisis magna</p>
+                        </div>
+                        <div class="w-1/4">
+                            <p>$ 120</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="w-1/2">
+                    <div class="flex px-10 py-5">
+                        <div class="w-3/4">
+                            <h4>Steak tartare butter</h4>
+                            <p>Non nisi est sit amet facilisis magna</p>
+                        </div>
+                        <div class="w-1/4">
+                            <p>$ 120</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-1/2">
+                    <div class="flex px-10 py-5">
+                        <div class="w-3/4">
+                            <h4>Steak tartare butter</h4>
+                            <p>Non nisi est sit amet facilisis magna</p>
+                        </div>
+                        <div class="w-1/4">
+                            <p>$ 120</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="titillium-web-bold-italic">
+        <h1 class="text-center p-5 text-xl">Meet our</h1>
+        <h5 class="text-center text-4xl">Team of professionals</h5>
+        <div class="flex w-1/4">
+            <div class="flex p-6 w-3/4">
+                <div class="w-1/2 ">
+                    <div class="flex">
+                        <div class="flex size-100">
+                            <div class="w-3/4">
+                                <img src="imagen/man-890885_1280.jpg" alt="">
+                                <h4 class="text-center">Steak tartare butter</h4>
+                                <p class="text-center">Non nisi est sit amet facilisis magna</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-1/2">
+                    <div class="flex">
+                        <div class="flex size-100">
+                            <div class="w-3/4">
+                                <img src="imagen/man-890885_1280.jpg" alt="">
+                                <h4 class="text-center">Steak tartare butter</h4>
+                                <p class="text-center">Non nisi est sit amet facilisis magna</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-1/2">
+                    <div class="flex">
+                        <div class="flex size-100">
+                            <div class="w-3/4">
+                                <img src="imagen/man-890885_1280.jpg" alt="">
+                                <h4 class="text-center">Steak tartare butter</h4>
+                                <p class="text-center">Non nisi est sit amet facilisis magna</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-1/2">
+                    <div class="flex">
+                        <div class="flex size-100">
+                            <div class="w-3/4">
+                                <img src="imagen/man-890885_1280.jpg" alt="">
+                                <h4 class="text-center">Steak tartare butter</h4>
+                                <p class="text-center">Non nisi est sit amet facilisis magna</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
